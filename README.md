@@ -90,9 +90,9 @@ git clone https://github.com/samarthhitnalli/CandidateRegistrationSystem.git
    - Choose project folder and click Finish
 
 3. **Add MySQL JDBC JAR**
-   - Download the MySQL JDBC driver (mysql-connector-j-9.1.0.jar) if you haven't already.
+   - Download the MySQL JDBC driver [mysql-connector-j-9.1.0.jar](https://dev.mysql.com/downloads/connector/j/) if you haven't already.
      Copy the JAR file into the following directory of your project:
-        'CandidateRegistrationSystemJAVA/src/main/webapp/WEB-INF/lib/'
+        `CandidateRegistrationSystemJAVA/src/main/webapp/WEB-INF/lib/`
 
 
 4. **Configure Tomcat**
