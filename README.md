@@ -75,15 +75,14 @@ CREATE TABLE IF NOT EXISTS candidates (
 - Eclipse IDE for Enterprise Java Developers
 - Apache Tomcat (v9 or later)
 - MySQL Server (running locally)
-- MySQL JDBC Driver (`mysql-connector-j-<version>.jar`)
-- Git (optional, for version control)
+- MySQL JDBC Driver (`mysql-connector-j-9.1.0.jar`)
 
 ### 🧩 Steps
 
 1. **Clone or download the project**
 
 ```bash
-git clone https://github.com/<your-username>/CandidateRegistrationSystem.git
+git clone https://github.com/samarthhitnalli/CandidateRegistrationSystem.git
 ```
 
 2. **Open in Eclipse**
@@ -91,10 +90,10 @@ git clone https://github.com/<your-username>/CandidateRegistrationSystem.git
    - Choose project folder and click Finish
 
 3. **Add MySQL JDBC JAR**
-   - Right-click project → Build Path → Configure Build Path
-   - Go to **Libraries** tab → Add External JARs
-   - Add `mysql-connector-j-<version>.jar`
-   - Go to **Order and Export tab** and ✔ check the JAR
+   - Download the MySQL JDBC driver (mysql-connector-j-9.1.0.jar) if you haven't already.
+     Copy the JAR file into the following directory of your project:
+        'CandidateRegistrationSystemJAVA/src/main/webapp/WEB-INF/lib/'
+
 
 4. **Configure Tomcat**
    - Add Apache Tomcat server in Eclipse
@@ -118,18 +117,11 @@ git clone https://github.com/<your-username>/CandidateRegistrationSystem.git
 
 ---
 
-## 📸 Screenshots
-
-> (Optional – add screenshots of the form and candidate list)
-
----
-
 ## 💡 Future Enhancements
 
 - Add update/delete functionality for candidates
 - Add login/authentication
 - Pagination and search for viewing candidates
-- Deploy on cloud platform (e.g., Heroku, Render)
 
 ---
 
